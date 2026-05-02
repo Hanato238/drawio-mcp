@@ -1,0 +1,13 @@
+{
+  "name": "drawio-mcp",
+  "version": "1.2.6",
+  "description": "Official draw.io MCP server - Open diagrams in draw.io editor",
+  "mcpServers": {
+    "drawio": {
+      "command": "node",
+      "args": [
+        "${extensionPath}/mcp-tool-server/src/index.js"
+      ]
+    }
+  }
+}
